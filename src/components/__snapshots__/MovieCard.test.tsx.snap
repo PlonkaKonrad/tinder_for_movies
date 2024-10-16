@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MovieCard Component matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="relative bg-black  w-full h-[65vh] shadow-xl rounded-[20px] overflow-hidden"
+  >
+    <div
+      class="bg-black relative   shadow-black rounded-lg overflow-hidden "
+    >
+      <div
+        class="relative h-[55vh]"
+      >
+        <div
+          class="absolute w-full h-full z-10"
+        />
+        <img
+          alt="Movie Title"
+          class="w-full "
+          src="image1.jpg"
+        />
+      </div>
+      <div
+        class="bottom-0 relative -mt-20 w-full p-5 bg-gradient-to-b from-transparent via-black to-black z-10"
+      >
+        <h3
+          class="text-lg font-bold mt-2 text-white"
+        >
+          Movie Title
+        </h3>
+        <p
+          class="text-sm text-gray-600 mt-2"
+        >
+          This is a summary of the movie.
+        </p>
+        <p
+          class="text-sm text-gray-700 mt-2 font-semibold"
+        >
+          Rating: 8.5
+        </p>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

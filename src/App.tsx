@@ -1,26 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { RecommendationProvider } from './context/RecomendationContext';
+import 'react-toastify/dist/ReactToastify.css';
+import Swiper from './components/Swiper';
 
-function App() {
+
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <RecommendationProvider>
+      <div className="max-w-full h-screen overflow-hidden   bg-gradient-to-r from-[#FD297B] via-[#FF5864] to-[#FF655B]">
+        <header className="p-6 absolute text-[#424242]">
+          <h1 className="text-3xl font-bold">scrinder</h1>
+        </header>
+        <main className='overflow-hidden'>
+          <Swiper />
+        </main>
+      </div> 
+xxx    </RecommendationProvider >
   );
-}
+};
 
 export default App;
