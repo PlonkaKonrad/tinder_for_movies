@@ -1,5 +1,6 @@
 {
   "name": "tinder-for-movies",
+  "homepage": "https://plonkakonrad.github.io/tinder_for_movies",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

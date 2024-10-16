@@ -1,8 +1,7 @@
 import React from 'react';
 import { RecommendationProvider } from './context/RecomendationContext';
-import 'react-toastify/dist/ReactToastify.css';
 import Swiper from './components/Swiper';
-
+import './index.css'
 
 const App: React.FC = () => {
   return (
